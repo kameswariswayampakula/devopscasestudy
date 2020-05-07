@@ -40,6 +40,13 @@ public class ProductAPI {
         List<Product> products=productRepository.findByPriceGreaterThan(price);
         return new ResponseEntity<List<Product>>(products,HttpStatus.OK);
     }
+    
+    
+    @GetMapping("/products/find/{name}")
+    public ResponseEntity<List<Product>> findByName(@PathVariable("name") String name){
+        List<Product> products=productRepository.findByProductNameIgnoreCase(name);
+        return new ResponseEntity<List<Product>>(products,HttpStatus.OK);
+    }
   //http://localhost:8081/products/5674
     @DeleteMapping("/products/{productId}")
     

@@ -13,4 +13,5 @@ public interface ProductRepository extends JpaRepository<Product ,Integer> {
 	List<Product> findByPriceGreaterThan(double price);
 	List<Product> deleteById(int productId);
 	List<Product> findById(int productId);
+	List<Product> findByProductNameIgnoreCase(String productName);
 }
