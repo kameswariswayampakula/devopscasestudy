@@ -18,7 +18,7 @@ private String releaseDate;
 private String productCode;
 
 public Integer getProductId() {
-return productId;
+return this.productId;
 }
 
 public void setProductId(Integer productId) {
@@ -26,7 +26,7 @@ this.productId = productId;
 }
 
 public String getProductName() {
-return productName;
+return this.productName;
 }
 
 public void setProductName(String productName) {
@@ -34,7 +34,7 @@ this.productName = productName;
 }
 
 public Double getPrice() {
-return price;
+return this.price;
 }
 
 public void setPrice(Double price) {
@@ -42,7 +42,7 @@ this.price = price;
 }
 
 public String getImageUrl() {
-return imageUrl;
+return this.imageUrl;
 }
 
 public void setImageUrl(String imageUrl) {
@@ -50,7 +50,7 @@ this.imageUrl = imageUrl;
 }
 
 public Double getStarRating() {
-return starRating;
+return this.starRating;
 }
 
 public void setStarRating(Double starRating) {
@@ -58,7 +58,7 @@ this.starRating = starRating;
 }
 
 public String getReleaseDate() {
-return releaseDate;
+return this.releaseDate;
 }
 
 public void setReleaseDate(String releaseDate) {
@@ -66,7 +66,7 @@ this.releaseDate = releaseDate;
 }
 
 public String getProductCode() {
-return productCode;
+return this.productCode;
 }
 
 public void setProductCode(String productCode) {
