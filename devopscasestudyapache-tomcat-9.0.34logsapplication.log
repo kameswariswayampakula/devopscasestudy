@@ -33,3 +33,55 @@
 2020-05-11 13:09:03.263 [INFO ] [RMI TCP Connection(16)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-05-11 13:09:03.273 [INFO ] [RMI TCP Connection(16)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2020-05-11 13:09:03.300 [INFO ] [RMI TCP Connection(16)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-05-11 16:09:47.355 [INFO ] [main] c.e.d.DevopscasestudyApplicationTests - Starting DevopscasestudyApplicationTests on DESKTOP-ABJ3RHS with PID 2836 (started by VenkataSivaKameswari in C:\devops\java\devopscasestudy)
+2020-05-11 16:09:47.359 [INFO ] [main] c.e.d.DevopscasestudyApplicationTests - No active profile set, falling back to default profiles: default
+2020-05-11 16:09:47.472 [DEBUG] [main] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7eb01b12
+2020-05-11 16:09:49.181 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-11 16:09:49.336 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135ms. Found 1 JPA repository interfaces.
+2020-05-11 16:09:50.906 [INFO ] [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 16:09:51.255 [INFO ] [main] o.h.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 16:09:51.754 [INFO ] [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 16:09:52.764 [INFO ] [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 16:09:53.145 [INFO ] [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 16:09:53.200 [INFO ] [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-05-11 16:09:54.949 [INFO ] [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 16:09:54.961 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 16:09:56.559 [WARN ] [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-11 16:09:57.244 [INFO ] [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 16:09:57.304 [DEBUG] [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-05-11 16:09:57.511 [DEBUG] [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+2020-05-11 16:09:57.658 [DEBUG] [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-05-11 16:09:57.722 [DEBUG] [main] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-05-11 16:09:58.278 [INFO ] [main] c.e.d.DevopscasestudyApplicationTests - Started DevopscasestudyApplicationTests in 12.117 seconds (JVM running for 18.014)
+2020-05-11 16:09:58.924 [INFO ] [main] c.e.d.a.ProductAPI - Processing findAll request
+2020-05-11 16:09:59.138 [DEBUG] [SpringContextShutdownHook] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7eb01b12, started on Mon May 11 16:09:47 IST 2020
+2020-05-11 16:09:59.159 [INFO ] [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 16:09:59.163 [INFO ] [SpringContextShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 16:09:59.185 [INFO ] [SpringContextShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-05-11 16:09:59.345 [INFO ] [SpringContextShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-05-11 19:15:07.477 [INFO ] [main] c.e.d.DevopscasestudyApplicationTests - Starting DevopscasestudyApplicationTests on DESKTOP-ABJ3RHS with PID 11864 (started by VenkataSivaKameswari in C:\devops\java\devopscasestudy)
+2020-05-11 19:15:07.482 [INFO ] [main] c.e.d.DevopscasestudyApplicationTests - No active profile set, falling back to default profiles: default
+2020-05-11 19:15:07.715 [DEBUG] [main] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@aa22f1c
+2020-05-11 19:15:09.792 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-11 19:15:10.117 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 293ms. Found 1 JPA repository interfaces.
+2020-05-11 19:15:11.695 [INFO ] [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 19:15:11.925 [INFO ] [main] o.h.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 19:15:12.259 [INFO ] [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 19:15:13.391 [INFO ] [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 19:15:13.810 [INFO ] [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 19:15:13.872 [INFO ] [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-05-11 19:15:15.613 [INFO ] [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 19:15:15.626 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 19:15:17.188 [WARN ] [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-11 19:15:17.731 [INFO ] [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 19:15:17.959 [DEBUG] [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-05-11 19:15:18.211 [DEBUG] [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+2020-05-11 19:15:18.367 [DEBUG] [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-05-11 19:15:18.402 [DEBUG] [main] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-05-11 19:15:18.980 [INFO ] [main] c.e.d.DevopscasestudyApplicationTests - Started DevopscasestudyApplicationTests in 12.903 seconds (JVM running for 16.462)
+2020-05-11 19:15:19.585 [INFO ] [main] c.e.d.a.ProductAPI - Processing findAll request
+2020-05-11 19:15:19.985 [DEBUG] [SpringContextShutdownHook] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@aa22f1c, started on Mon May 11 19:15:07 IST 2020
+2020-05-11 19:15:20.003 [INFO ] [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 19:15:20.005 [INFO ] [SpringContextShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 19:15:20.014 [INFO ] [SpringContextShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-05-11 19:15:20.073 [INFO ] [SpringContextShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
