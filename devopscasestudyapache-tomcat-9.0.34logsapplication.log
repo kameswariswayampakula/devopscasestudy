@@ -175,3 +175,9 @@
 2020-05-11 19:27:17.359 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
 2020-05-11 19:27:17.385 [INFO ] [restartedMain] c.e.d.DevopscasestudyApplication - Started DevopscasestudyApplication in 2.856 seconds (JVM running for 51.209)
 2020-05-11 19:27:17.388 [INFO ] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-11 21:50:39.399 [WARN ] [HikariPool-3 housekeeper] c.z.h.p.HikariPool - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=2h20m23s136ms682µs300ns).
+2020-05-11 22:01:08.923 [INFO ] [RMI TCP Connection(30)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2020-05-11 22:01:08.957 [INFO ] [RMI TCP Connection(30)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 22:01:08.960 [INFO ] [RMI TCP Connection(30)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 22:01:08.970 [INFO ] [RMI TCP Connection(30)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2020-05-11 22:01:08.983 [INFO ] [RMI TCP Connection(30)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
