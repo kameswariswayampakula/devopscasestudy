@@ -47,13 +47,6 @@ public ResponseEntity<List<ProductDTO>> findByPrice(@PathVariable("price")double
 return new ResponseEntity<>(productFacade.findByPriceGreaterThan(price), HttpStatus.OK);
 }
 
-@GetMapping("/products/find/{name}")
-public ResponseEntity<List<ProductDTO>> findByName(@PathVariable("name")String name){
-
-logger.info("Processing findByName request");
-
-return new ResponseEntity<>(productFacade.findByProductName(name), HttpStatus.OK);
-}
 
 // "\"This is a String\""
 
@@ -82,7 +75,13 @@ productFacade.save(productDTO);
 return ResponseEntity.status(HttpStatus.CREATED).body(productDTO);
 }
 
+@GetMapping("/products/udername={name}")
+public ResponseEntity<List<ProductDTO>> findByName(@PathVariable("name")String name){
 
+logger.info("Processing findByName request");
+
+return new ResponseEntity<>(productFacade.findByProductName(name), HttpStatus.OK);
+}
 
 
 

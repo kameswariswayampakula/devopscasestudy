@@ -9,7 +9,7 @@ import com.example.devopscasestudy.model.Product;
 
 
 @Repository
-public interface ProductRepository extends JpaRepository<Product ,Integer> {
+public interface ProductRepository extends JpaRepository<Product,Integer> {
 	List<Product> findByPriceGreaterThan(double price);
 	List<Product> deleteById(int productId);
 	List<Product> findById(int productId);
