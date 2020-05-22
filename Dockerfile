@@ -13,7 +13,7 @@ RUN mvn package
 FROM openjdk:8-jdk-alpine
 
 #maintainer
-MAINTAINER sivakameswari0563updated pipeline@gmail.com
+MAINTAINER sivakameswari0563@gmail.com
 #expose port 8083
 EXPOSE 8083
 
